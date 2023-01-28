@@ -9,10 +9,6 @@ const TradingBoard = (props) => {
 
   const [query, setQuery] = useState("");
 
-  const handleSearchSubmit = (event) => {
-
-  }
-
   return (
     <div className="tradingboard">
         <div className="trading-header">
