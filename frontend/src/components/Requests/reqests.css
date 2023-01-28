@@ -19,14 +19,16 @@
 }
 
 .divider{
+    font-size: 16px;
+    font-weight: 400;
     color: #838383;
+    margin-bottom: 6px;
 }
 
 .div-line {
-    margin-top: 6px;
     width: 222px;
     height: 1px;
-    background-color: #838383;
+    background-color: #424242;
     border-radius: 100px;
 }
 
@@ -40,5 +42,9 @@
 .confirmed {
     height: 400px;
     width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 

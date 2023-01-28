@@ -1,5 +1,6 @@
 import React from 'react'
 import './reqests.css'
+import ConfirmedTradeList from './ShortTradeList/ConfirmedTradeList/ConfirmedTradeList'
 
 const Requests = () => {
   return (
@@ -10,7 +11,7 @@ const Requests = () => {
             <p className="divider">Confirmed</p>
             <div className="div-line"></div>
           </div>
-          
+          <ConfirmedTradeList/>
 
         </div>
         <div className="pending">
