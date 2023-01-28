@@ -1,0 +1,44 @@
+.requests {
+    position: absolute;
+    left: 53px;
+    top: 126px;
+    width: 326px;
+    height: 785px;
+    background-color: #2C2C2C;
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.yours {
+    font-size: 28px;
+    color: white;
+}
+
+.divider{
+    color: #838383;
+}
+
+.div-line {
+    margin-top: 6px;
+    width: 222px;
+    height: 1px;
+    background-color: #838383;
+    border-radius: 100px;
+}
+
+.req-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px;
+}
+
+.confirmed {
+    height: 400px;
+    width: 300px;
+}
+

@@ -1,0 +1,10 @@
+.longtradelist {
+    height: 580px;
+    width: 98.5%;
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    display: none; 
+  }

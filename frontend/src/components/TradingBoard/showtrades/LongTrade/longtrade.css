@@ -1,0 +1,46 @@
+.longtrade-name {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.longtrade-trade {
+    font-size: 20px;
+}
+
+.give {
+    color: red;
+}
+
+.recieve {
+    color: rgb(34, 255, 34);
+}
+
+.longtrade-time, .longtrade-loc {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.longtrade-time {
+    margin-bottom: 3px;
+}
+
+
+.horizontal-divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.longtrade {
+
+    background-color: #959595;
+    width: 693px;
+    border-radius: 9px;
+    padding: 15px 15px 15px;
+
+    margin-bottom: 15px;
+}

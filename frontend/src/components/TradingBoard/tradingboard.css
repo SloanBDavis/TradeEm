@@ -1,0 +1,31 @@
+.tradingboard {
+    position: absolute;
+    width: 1460px;
+    height: 862px;
+    left: 415px;
+    top: 49px;
+
+    background: #2C2C2C;
+    border-radius: 20px;
+}
+
+.tr-heading {
+    margin-left: 56px;
+    color: white;
+    margin-top: 40px;
+    font-size: 48px;
+}
+
+.trade-components {
+    margin-left: 56px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.create-and-add {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+

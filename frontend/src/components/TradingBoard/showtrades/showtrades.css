@@ -1,0 +1,15 @@
+.showtrade {
+    width: 756px;
+    height: 700px;
+    background: #414141;
+    border-radius: 18px;
+    
+}
+
+.showtrades-header {
+    font-size: 32px;
+}
+
+.list-long {
+    margin-top: 10px;
+}

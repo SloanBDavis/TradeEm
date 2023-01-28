@@ -1,0 +1,29 @@
+.createtrades {
+    width: 562px;
+    height: 434px;
+    background: #414141;
+    border-radius: 18px;
+}
+
+.margin-create {
+    margin-left: 31px;
+}
+
+.createtrades-header {
+    font-size: 32px;
+}
+
+.create-trade-form {
+    margin-top: 10px;
+}
+
+.this-for-that {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+    width: 500px;
+
+    font-weight: 700;
+    font-size: 32px;
+}
