@@ -1,3 +1,13 @@
+.longtrade:hover {
+    border-radius: 8px;
+    transform: translateY(-5px);
+
+    background-color: #818181;
+    transition: .3s ease-in-out;
+
+    cursor: pointer;
+}
+
 .longtrade-name {
     color: black;
     font-size: 20px;

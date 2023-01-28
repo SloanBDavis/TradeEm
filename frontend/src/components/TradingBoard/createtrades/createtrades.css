@@ -15,15 +15,74 @@
 
 .create-trade-form {
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .this-for-that {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid white;
     width: 500px;
 
     font-weight: 700;
     font-size: 32px;
 }
+
+.search-user-input {
+    height: 40px; 
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.search-user-input:hover, .create-dropdown:hover  {
+    background-color: #b1b1b1;
+    transition: .5s ease-in-out;
+}
+
+.date-label {
+    margin-top: 40px;
+}
+
+.datetime {
+    margin-bottom: 20px;
+}
+
+.create-dropdown {
+    height: 40px; 
+    width: 200px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.create-submit {
+    position: relative;
+
+    left: 350px;
+
+    margin-top:40px;
+    background-color: #80dd88;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    height: 60px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.create-submit:hover {
+    background-color: #b3f1a7;
+    border-radius: 8px;
+    transition: .3s ease-in-out;
+}
+

@@ -1,0 +1,17 @@
+.confirmed-tradelist {
+    height: 585px;
+    width: 98.5%;
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+    padding-top: 5px;
+}
+
+/* width */
+/* ::-webkit-scrollbar {
+    display: none; 
+  } */

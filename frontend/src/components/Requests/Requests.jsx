@@ -1,6 +1,7 @@
 import React from 'react'
 import './reqests.css'
 import ConfirmedTradeList from './ShortTradeList/ConfirmedTradeList/ConfirmedTradeList'
+import PendingTradeList from './ShortTradeList/PendingTradeList/PendingTradeList'
 
 const Requests = () => {
   return (
@@ -11,15 +12,17 @@ const Requests = () => {
             <p className="divider">Confirmed</p>
             <div className="div-line"></div>
           </div>
-          <ConfirmedTradeList/>
+          <ConfirmedTradeList />
 
         </div>
         <div className="pending">
-        <div className="req-divider">
+          <div className="req-divider">
             <p className="divider">Pending</p>
             <div className="div-line"></div>
           </div>
+          <PendingTradeList/>
         </div>
+
     </div>
   )
 }

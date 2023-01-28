@@ -1,7 +1,7 @@
 import React from 'react'
 import './ShortTrade.css'
 
-const ShortTrade = () => {
+const ShortTrade = ({props}) => {
   return (
     <div className="shorttrade">
         <h1 className="shorttrade-name">Matthew Wang</h1>

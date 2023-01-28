@@ -15,6 +15,11 @@
     padding-left: 60px;
 }
 
+.searchbar:hover {
+    background-color: #b1b1b1;
+    transition: .5s ease-in-out;
+}
+
 .search-icon {
     position: absolute;
     left: 860px;
