@@ -14,7 +14,7 @@ const Signup = () => {
     console.log("Password: " + event.target[2].value)
     console.log("Confirm Password: " + event.target[3].value)
 
-    if((event.target[0].value || event.target[1].value || event.target[2].value || event.target[3].value) === "") { swal({
+    if(event.target[0].value === "" || event.target[1].value === "" || event.target[2].value === "" || event.target[3].value === "") { swal({
       title: "Sorry...",
       text: "Please enter a valid input for all fields",
       icon: "error",
@@ -38,19 +38,19 @@ const Signup = () => {
               <div className="signup-data">
                   <h1 className="signup-form-header">Welcome, glad you're joining us!</h1>
                   <form className='signup-form' onSubmit={handleSubmit}>
-                      <label>
+                      <label className='ass'>
                           <p>Username :</p>
                           <input className='signup-text-input' type="text" name="username" />
                       </label>
-                      <label>
+                      <label className='ass'>
                           <p>Email:</p>
                           <input className='signup-text-input' type="text" name="email" />
                       </label>
-                      <label>
+                      <label className='ass'>
                           <p>Password:</p>
                           <input className='signup-text-input' type="text" name="Password" />
                       </label>
-                      <label>
+                      <label className='ass'>
                           <p>Confirm Password:</p>
                           <input className='signup-text-input' type="text" name="CPassword" />
                       </label>

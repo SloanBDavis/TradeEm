@@ -60,6 +60,16 @@ p {
     transition: 0.3s ease-in-out;
 }
 
+.ass:hover {
+    transform: translateY(-2px);
+    transition: 0.3s ease-in-out;
+}
+
+.signup-text-input:hover {
+    background-color: #9e9e9e;
+    transition: 0.3s ease-in-out;
+}
+
 .submit {
     margin-top: 10px;
     background-color: #7B79DE;
