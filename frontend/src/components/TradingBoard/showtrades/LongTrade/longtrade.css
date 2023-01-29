@@ -1,8 +1,8 @@
 .longtrade:hover {
     border-radius: 8px;
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 
-    background-color: #818181;
+    background-color: #15f115;
     transition: .3s ease-in-out;
 
     cursor: pointer;

@@ -4,15 +4,14 @@ import './longtradelist.css'
 
 const LongTradeList = ({trades}) => {
 
-//   const values = trades._____
-// const listItems = values.map((value) => {
-//     <LongTrade props={value}/>
-// })  
+  const values = trades
+  const listItems = values.map((value) => {
+    return (<LongTrade props={value}/> )
+  })  
 
   return (
     <div className="longtradelist">
-        <LongTrade/>
-        {/* {listItems} */}
+        {listItems}
     </div>
   )
 }

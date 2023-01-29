@@ -6,12 +6,12 @@ const LongTrade = ({props}) => {
     <div className="longtrade">
       <div className="horizontal-divider">
         <div className="maindata">
-            <h1 className="longtrade-name">Sloan Davis</h1>
-            <h1 className="longtrade-trade"><span className='give'>Hose</span> ↔ <span className='recieve'>Sweatshirt</span></h1>
+            <h1 className="longtrade-name">{props.username}</h1>
+            <h1 className="longtrade-trade"><span className='give'>{props.give}</span> ↔ <span className='recieve'>{props.recieve}</span></h1>
         </div>
         <div className="subdata">
-            <p className="longtrade-time">Time: 9:00PM</p>
-            <p className="longtrade-loc">Location: Quad</p>
+            <p className="longtrade-time">{props.time}</p>
+            <p className="longtrade-loc">{props.loc}</p>
         </div>
       </div>  
     </div>
