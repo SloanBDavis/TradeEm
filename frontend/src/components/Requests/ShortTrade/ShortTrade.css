@@ -3,7 +3,7 @@
     height: 146px;
 
     background-color: #959595;
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
 
     border-radius: 12px;
     
@@ -29,7 +29,7 @@
 }
 
 .shorttrade-time, .shorttrade-loc {
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     font-weight: 400;
     margin-bottom: 4px;

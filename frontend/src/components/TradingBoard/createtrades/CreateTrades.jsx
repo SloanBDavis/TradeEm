@@ -28,7 +28,7 @@ const CreateTrades = () => {
 
               {name ? "" : 
               <form className='search-user' onSubmit={getSearch}>
-                <input className='search-user-input' type="text" name="search-username" placeholder='Who would you like to trade with?'/>
+                <input className='search-user-input' type="text" name="search-username" placeholder='Who would you like to trade with? (Optional)'/>
               </form>}
 
               {
@@ -38,19 +38,22 @@ const CreateTrades = () => {
                   <label>
                     <select form='route-here' className='create-dropdown' type="text" name="username" placeholder='Who would you like to trade with?'>
                       <option value="" disabled selected>Select your option</option>
+                      <option value="">Logitech Mouse</option>
                     </select>
                   </label>
                   for
                   <label>
                     <select form='route-here' className='create-dropdown' type="text" name="username">
                       <option value="" disabled selected>Select your option</option> 
+                      <option value="" >Nike Sweatpants</option>
+                      <option value="" >Cargo Pants</option>
                     </select>
                   </label>
                 </label>
 
                 <label className='search-time'>
                   <p className='date-label'>When will your trade happen?</p>
-                  <input className='search-user-input datetime' type="date" name="search-time"/>
+                  <input className='search-user-input datetime' type="datetime-local" name="search-time"/>
                 </label>
                 
                 <label className='search-loc'>

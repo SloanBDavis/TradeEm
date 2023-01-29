@@ -5,11 +5,6 @@ import './confirmedtradelist.css'
 const ConfirmedTradeList = ({trades}) => {
   return (
     <div className="confirmed-tradelist">
-        <ShortTrade/>
-        <ShortTrade/>
-        <ShortTrade/>
-        <ShortTrade/>
-    
     </div>
   )
 }
